@@ -627,9 +627,10 @@
 // }
 // a, b, c sonlari berilgan.
 // Shu sonlardan uch xonali son yasang. Agar xohlagan son 0 ga teng yoki  kichik bo'lsa 0 ni konsolga chiqaring.
-let a = 8, b=0, c=3;
-if(a == 0 || b == 0 || c == 0){
-    console.log(0);
-}else {
-    console.log( a * 100 + b * 10 + c );
-}
+// let a = 8, b=0, c=3;
+// if(a == 0 || b == 0 || c == 0){
+//     console.log(0);
+// }else {
+//     console.log( a * 100 + b * 10 + c );
+
+// }
