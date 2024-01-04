@@ -613,6 +613,7 @@
 // }else {
 //     console.log(0);
 // }
+
 // a, b, c sonlar berilgan (0 emas).
 // Agar xohlagan 2 tasi juft bo'lsa 1 ni konsolga chiqaring.
 // Agar xohlagan 2 tasi toq bo'lsa 2 ni konsolga chiqaring
