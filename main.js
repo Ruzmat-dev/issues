@@ -510,7 +510,7 @@
 // }
 // a, b, c sonlari berilgan.
 // Berilgan 3 ta sondan nechtasi musbat ekanligini aniqlovchi dastur yozing va musbat sonlar sonini konsolga chiqaring.
-// const a = 1, b = 8, c = 27 
+// const a = 1, b = 8, c = 27
 // let sum = 0;
 // if(a > 0) {
 //     sum++;
@@ -542,7 +542,7 @@
 // Agar kamayish tartibda bo'lsa 2 konsolga chiqaring.
 // Agar eng kattasi b bo'sa  b ni konsolga chiqaring.
 // Agar ular teng bo'lsa 5 ni konsolga chiqaring.
-// Bo'lmasa 0 ni konsolga chiqaring. 
+// Bo'lmasa 0 ni konsolga chiqaring.
 // let  a = 3, b=5, c=3
 // if(a < b && b < c){
 //     console.log(1);
@@ -553,7 +553,7 @@
 // }else{
 //     console.log(0);
 // }
-// Agar shu solarning ikkitasi o'zaro teng bo'lsa  teng bo'lmagan sonni konsolga chiqaring, aks holda 0 ni chiqaring. 
+// Agar shu solarning ikkitasi o'zaro teng bo'lsa  teng bo'lmagan sonni konsolga chiqaring, aks holda 0 ni chiqaring.
 // let a = 3,  b = 10, c = 8;
 // if(a == b){
 //     console.log(c);
@@ -565,7 +565,7 @@
 //     console.log(0);
 // }
 // Sonlar o'qida a,b sonlari berilgan. Ular orasidagi masofani toping.
-// let a = -2,  b = -6  
+// let a = -2,  b = -6
 // if(a <  0 && b < 0){
 //     console.log((a * (-1)) + (b * (-1)));
 // }
@@ -576,7 +576,7 @@
 // }
 // Sonlar o'qida a nuqta berilgan.
 // Shu nuqtadan 0 gacha bo'lgan masofani toping.
-// let a = -15 
+// let a = -15
 // if(a > 0){
 //     console.log(a);
 // }else if(a < 0){
@@ -599,8 +599,8 @@
 //     console.log(false);
 // }
 // a, b, c sonlar berilgan (0 emas).
-// Agar  3 ta son ham toq bo'lsa 1 ni konsolga chiqaring. 
-// Agar 3 ta son ham juft bo'lsa 2 ni konsolga chiqaring. 
+// Agar  3 ta son ham toq bo'lsa 1 ni konsolga chiqaring.
+// Agar 3 ta son ham juft bo'lsa 2 ni konsolga chiqaring.
 // Agar xohlagan bittasi toq bo'lsa 3 ni konsolga chiqaring.
 // Agar shartlarni qanoatlantirmasa  0 ni konsolga chiqaring.
 // let a = 18, b=7, c=16
@@ -633,3 +633,136 @@
 // }else {
 // console.log( a * 100 + b * 10 + c );
 // }
+// a, b sonlar berilgan.
+// a va b sonlar orasidagi (butun) sonlar   yig'indisini toping (a sonini inobatga oling) va yig'indini konsolga chiqaring.
+// let a=2, b = 8
+// let sum = 0
+// for(a; b> a; a++){
+//     sum += a
+// }
+// console.log(sum);
+// a, b sonlar berilgan
+// a va b sonlar orasidagi juft sonlarni sonini toping   (a sonini inobatga oling) va natijani konsolga chiqaring.
+// let a=24, b=31
+// let sum = 0
+// for(a; b > a; a++){
+//     if(a % 2 == 0){
+//         sum++
+//     }
+// }
+// console.log(sum);
+// a, b sonlar berilgan.
+// a va b sonlar orasidagi 3 ga bo'linadigan sonlarni yig'indisi va sonini konsolga chiqaring.
+// let a=24, b=31
+// let sum = 0 ;
+// for(a; a < b;a++){
+//     if(a % 3 == 0){
+//         sum +=a
+//     }
+// }
+// console.log(sum);
+// a, b sonlar berilgan.
+// a va b sonlar orasidagi 2 va 3 ga bo'linadigan sonlarning sonini  konsolga chiqaring.
+// let  a=2, b=21
+// let sum = 0;
+// for(a; b>a; a++){
+//     if(a % 2 == 0){
+//         if(a % 3 == 0){
+//             sum++
+//         }
+//     }
+// }
+// console.log(sum);
+// a va b sonlari orasidagi musbat sonlar sonini toping  va shuni konsolga chiqaring.  b sonini ham inobatga oling.
+// let  a=-3, b=2
+// let sum = 0;
+// for(a; a<=b; a++){
+//     if(a > 0){
+//         sum++
+//     }
+// }
+// console.log(sum);
+// a sonini 5 chi darajasini hisoblab konsolga chiqaring
+// let a = 2;
+// console.log(Math.pow(a,5));
+// a soni berilgan.
+// a sonini n chi darajasini hisoblaydigan dastur yozing  va hosil bo'lgan sonni konsolga chiqaring.
+// let  a=2, n=6;
+// console.log(Math.pow(a,n));
+// a , n sonlari berilgan (a soni 1-9 o'rtasida ).
+// Ketma ketlikni hisoblang. a + aa + aaa + ........  nta a bo'ladi.
+// Yig'indini konsolga chiqarish kerak.
+// Natija:  3 + 33 + 333 + 3333 = 3702
+// let a = 7, n = 5;
+// let temp = 0;
+// let sum = 0;
+
+// for(let i=0; i <= n; i++){
+//     temp = temp *10 + a
+//     sum +=temp
+// }
+// console.log(temp);
+// let a = 15;
+// let sum = 0
+// for(let i = 0; i < 6; i++){
+//     if(a % i == 0){
+//         sum+=i
+//     }
+// }
+// sum == a ? console.log(true) : console.log(false)
+// let n = 6;
+// let sum = 0;
+// for(let i =1; i <= n; i++){
+//     sum += Math.pow(i , 2)
+// }
+// console.log(sum);
+// n = 153  agar (1*1*1) + (5*5*5) + (3*3*3) = 153.
+// let n = 153
+// let nSrg = n.toString()
+// let sum = 0
+// for(let i=0; i < nSrg.length;i++){
+//     let raqam = parseInt(nSrg[i])
+//     sum += Math.pow(raqam , nSrg.length)
+// }
+// console.log(sum);
+// let a = 7;
+// let b = true
+// for(let i = 2; i < a; i++){
+//     if(a % i == 0) {
+//         b = false
+//     }
+// }
+// console.log(b);
+// let a = 78
+// console.log(a.toString().length);
+// let a=127;
+// let sum = 0;
+// let aStr = a.toString()
+// for(let i = 0; i < aStr.length; i++){
+//     sum += parseInt(aStr[i])
+// }
+// console.log(sum);
+// let n = 12321;
+// let nStrg = n.toString()
+// let a = []
+// for(let i = 0 ; i < nStrg.length; i++){
+//     a.push(parseInt(nStrg[i]))
+// }
+// n == a.reverse().join('')  ? console.log(true) : console.log(false)
+// let a = 5
+// let sum=1
+// for(let i=1; i <= a; i++){
+//     sum *=i
+// }
+// console.log(sum);
+// fn = f(n-1) + f(n-2)
+// let a = 13;
+// let sum = 0;
+// for (let i = 0; i <= a; i++) {
+//   if (i - 1 + (i - 2) < 0) {
+//     sum += -(i - 1 + (i - 2));
+//   } else {
+//     sum += i - 1 + (i - 2);
+//   }
+// }
+// console.log(sum);
