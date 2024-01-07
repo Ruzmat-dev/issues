@@ -625,6 +625,7 @@
 // }else {
 //     console.log(0);
 // }
+
 // a, b, c sonlari berilgan.
 // Shu sonlardan uch xonali son yasang. Agar xohlagan son 0 ga teng yoki  kichik bo'lsa 0 ni konsolga chiqaring.
 // let a = 8, b=0, c=3;
