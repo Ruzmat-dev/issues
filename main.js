@@ -375,6 +375,25 @@
 // }
 
 // console.log(apasi.ApasiniBalasi(a));
-const show = () => this
+// const show = () => this
 
-console.log('arrow function this', show()) 
+// console.log('arrow function this', show()) 
+// let id1 = Symbol("id");
+// let id2 = Symbol("id");
+// console.log(id1 == id2);
+// create a Map
+// const funMap = new Map();
+
+// funMap.set(360, 'My House Number'); // number as key
+// funMap.set('John', 'I write blogs!'); // boolean as key
+
+// let obj = {'name': 'tapas'}
+// funMap.set(obj, true); // object as key
+// console.log(funMap.has('John'));
+const target = { a: 1, b: 2 };
+const source = { b: 3, c: 4 };
+
+const result = Object.assign(target, source);
+
+console.log(target); // Outputs: { a: 1, b: 3, c: 4 }
+console.log(result); // Outputs: { a: 1, b: 3, c: 4 }

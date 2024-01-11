@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <button onclick="showTemplate()">open templet</button>
+    <template>
+        <h1>Salom bevofo dunyo</h1>
+    </template>
 </body>
 
-<script src="./main.js"></script>
+  <script src="./main.js"></script>
+  <!-- <script>
+      function showTemplate(){
+          let temp = document.getElementsByTagName('template')[0];
+          let con = temp.content.cloneNode(true)
+            document.body.appendChild(con)
+        }
+  </script> -->
 </html>
