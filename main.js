@@ -390,10 +390,18 @@
 // let obj = {'name': 'tapas'}
 // funMap.set(obj, true); // object as key
 // console.log(funMap.has('John'));
-const target = { a: 1, b: 2 };
-const source = { b: 3, c: 4 };
+// const target = { a: 1, b: 2 };
+// const source = { b: 3, c: 4 };
 
-const result = Object.assign(target, source);
+// const result = Object.assign(target, source);
 
-console.log(target); // Outputs: { a: 1, b: 3, c: 4 }
-console.log(result); // Outputs: { a: 1, b: 3, c: 4 }
+// console.log(target); // Outputs: { a: 1, b: 3, c: 4 }
+// console.log(result); // Outputs: { a: 1, b: 3, c: 4 }
+// let a = null ?? 2
+// console.log(a);
+// Cookie yaratish
+document.cookie = "foydalanuvchi_ismi=John Doe";
+
+// Yoki matn ko'rinishidagi yaratish
+let cookieString = "foydalanuvchi_ismi=John Doe";
+document.cookie = cookieString;
