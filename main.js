@@ -205,12 +205,12 @@
 //  const   a = 2
 //  const    array = [4,5,6,7]
 //  array.splice(a , 1)
-//  console.log(array); 
+//  console.log(array);
 //  22
 // Shu massivni teskarisini yangi massivga ko'chirib o'tkazing va konsolga chiqaring.
-// const a = [1,2,3,4] 
+// const a = [1,2,3,4]
 // a.reverse()
-// console.log(a); 
+// console.log(a);
 // 22
 // Shu massivda nechta n soni borligini topib konsolga chiqaring.
 // const n = 4;
@@ -235,9 +235,9 @@
 //         }
 //     }
 // }
-// 
+//
 
-// var 
+// var
 
 // var n = 10
 
@@ -278,7 +278,7 @@
 
 // function TopElement(arr) {
 //     const result = [];
-  
+
 //     for (let i = 0; i < arr.length; i++) {
 //       for (let j = i + 1; j < arr.length; j++) {
 //         if (arr[i] === arr[j]) {
@@ -286,7 +286,7 @@
 //         }
 //       }
 //     }
-  
+
 //     return result;
 // }
 // const arr = [1, 2, 1, 4];
@@ -301,12 +301,12 @@
 //       return this.firstName + " " + this.lastName;
 //     }
 //   }
-  
+
 //   const member = {
 //     firstName:"Hege",
 //     lastName: "Nilsen",
 //   }
-  
+
 //   let fullName = person.fullName.bind(member);
 //   console.log(person.fullName.apply());
 //   apply()
@@ -377,7 +377,7 @@
 // console.log(apasi.ApasiniBalasi(a));
 // const show = () => this
 
-// console.log('arrow function this', show()) 
+// console.log('arrow function this', show())
 // let id1 = Symbol("id");
 // let id2 = Symbol("id");
 // console.log(id1 == id2);
@@ -400,8 +400,236 @@
 // let a = null ?? 2
 // console.log(a);
 // Cookie yaratish
-document.cookie = "foydalanuvchi_ismi=John Doe";
+// document.cookie = "foydalanuvchi_ismi=John Doe";
 
 // Yoki matn ko'rinishidagi yaratish
-let cookieString = "foydalanuvchi_ismi=John Doe";
-document.cookie = cookieString;
+// let cookieString = "foydalanuvchi_ismi=John Doe";
+// document.cookie = cookieString;
+
+// a, b, c  sonlari berilgan.  Shu sonlardan eng kattasini toping.
+// const a = 5;
+// const b = 7;
+// const c = 3;
+// if(a>b && a>c){
+//     console.log('a');
+// }else if (b>a && b>c){
+//     console.log('b');
+// }else if (c>a && c>b){
+//     console.log('c');
+// }
+// Misol Sharti
+// Berilgan yill kabisa yili ekanligini aniqlang. Agar kabisa yili bo'lsa true  konsolga chiqsin.  Agar bo'linmasa false  konsolga chiqsin.
+// Kabisa yil deb 4 yilda birmarta keladigan yilga aytiladi. Shu yili kunlar soni 365 emas 366 ga teng bo'ladi. Bu yili fevral oyida 29 kun bo'ladi.
+// let a = prompt()
+// if(a % 4 == 0) {
+//     console.log('kasbiy yil');
+// }else{
+//     console.log('kasbiy yil emas');
+// }
+
+// c char berilgan. Berilgan  char alfavit  yoki raqam ekanligini aniqlang. Agar alfavit bo'lsa 'alpha' ni  konsolga chiqaring,  agar son bo'lsa 'son' ni  konsolga chiqaring.
+// let c = 'dd'
+// if(0 <= c || c <=9){
+//     console.log('son');
+// }else{
+//     console.log('bu string');
+// }
+
+// Agar alfavit kichik bo'lsa 'lowerCase' so'zini konsolga chiqaring,  Agar alfavit katta bo'lsa 'upperCase' ni chiqaring,  agar alfavit  bo'lmasa  'none' ni  chiqaring.
+// let c = 1
+// if(typeof c === 'number'){
+//     console.log('son');
+// }else if(c === c.toLowerCase()){
+//     console.log('LowerCase');
+// }else if(c === c.toUpperCase()){
+//     console.log('UpperCase');
+// }
+// Berilgan son hafta kunining qaysi kuniga to'g'ri keladi .
+// Agar kelgan son 1 ga teng bo'lsa 'Dushanba' ni konsolga chiqaring,
+// Agar kegan son ikkiga teng bo'lsa  'Seshanba' ni konsolga chiqaring va hz ..,
+// Agar hafta kuniga to'g'ri kelmasa 'none' konsolga chiqsin.
+// const n = 4
+// switch (n) {
+//   case 1:
+//     console.log("Dushanba");
+//     break;
+//   case 2:
+//     console.log("Seshanba");
+//     break;
+//   case 3:
+//     console.log("Chorshanba");
+//     break;
+//   case 4:
+//     console.log("Payshanba");
+//     break;
+//   case 5:
+//     console.log("Juma");
+//     break;
+//   case 6:
+//     console.log("Shanba");
+//     break;
+//   case 7:
+//     console.log("Yakshanba");
+//     break;
+//   default:
+//     console.log("none");
+// }
+// a,b,c sonlari berilgan . Shu sonlar uchburchakning ichki burchaklari ekanligini aniqlang.
+// Agar berilgan  sonlar uchburchakning burchaklari bo'lsa ,  true konsolga chiqaring bo'lmasa false konsolga chiqaring.
+// const a = 20;
+// const b = 50;
+// const c = 120;
+// if(a > 0 && b > 0 && c > 0){
+//     if(a+b+c <=180){
+//         console.log(true);
+//     }else{
+//         console.log(false);
+//     }
+// }else{
+//     console.log(false);
+// }
+// a,b,c sonlari berilgan . Shu sonlar uchburchakning tomonlari ekanligini aniqlang.
+// Agar kelgan sonlar uchburchakning tomonlari bo'lsa ,true  konsolga  chiqaring,  bo'lmasa false konsolga chiqaring.
+// const a = 20, b = 25, c = 30;
+// if(a< b+c && b < a+c && c < a+b){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+// a,b,c sonlari berilgan. Bu sonlar uchburchakning 3ta tomonidir.  Uchburchak ning shakli qanday ekanligini aniqlang.
+// Agar teng tomonli bo'lsa  'equilateral' so'zini konsolga chiqaring.
+// Agar teng yonli bo'lsa  'isosceles' so'zini konsolga chiqaring.
+// Agar ixtiyoriy  bo'lsa  'scalene'  so'zini konsolga chiqaring.
+// const a = 10, b = 15, c = 10;
+// if( a == b && b == c){
+//     console.log('equilateral');
+// }else if (a==b || b==c || c==a){
+//     console.log('isosceles');
+// }else{
+//     console.log('scalene');
+// }
+// a, b, c sonlari berilgan.
+// Berilgan 3 ta sondan nechtasi musbat ekanligini aniqlovchi dastur yozing va musbat sonlar sonini konsolga chiqaring.
+// const a = 1, b = 8, c = 27 
+// let sum = 0;
+// if(a > 0) {
+//     sum++;
+// };
+
+// if(b > 0) {
+//     sum++;
+// };
+
+// if(c > 0) {
+//     sum++;
+// }
+// console.log(sum);
+// a, b sonlari berilgan.
+// Berilgan ikkita sondan  kichigini  toping  va shu sonni konsolga chiqaring. Agar ular teng bo'lsa 'teng' so'zini konsolga chiqaring.
+// let a = 1, b = 1
+// if(a > b){
+//     console.log(b);
+// }else if (a < b){
+//     console.log(a);
+// }else {
+//     console.log('ular teng');
+// }
+// a, b, c sonlari berilgan. Berilgan uchta sonning o'rtacha qiymatini  hisoblovchi dastur yozing  va shu sonni konsolga chiqaring.
+// let a = 5, b = 10, c = 15
+// console.log((a+b+c)/3);
+// a, b, c sonlar berilgan.
+// Agar sonlar o'sish tartibida  joylashgan bo'lsa  1 ni konsolga chiqaring.
+// Agar kamayish tartibda bo'lsa 2 konsolga chiqaring.
+// Agar eng kattasi b bo'sa  b ni konsolga chiqaring.
+// Agar ular teng bo'lsa 5 ni konsolga chiqaring.
+// Bo'lmasa 0 ni konsolga chiqaring. 
+// let  a = 3, b=5, c=3
+// if(a < b && b < c){
+//     console.log(1);
+// }else if(c > b && b > c){
+//     console.log(2);
+// }else if(a == b || b == c || a == c){
+//     console.log(5);
+// }else{
+//     console.log(0);
+// }
+// Agar shu solarning ikkitasi o'zaro teng bo'lsa  teng bo'lmagan sonni konsolga chiqaring, aks holda 0 ni chiqaring. 
+// let a = 3,  b = 10, c = 8;
+// if(a == b){
+//     console.log(c);
+// }else if(a == c){
+//     console.log(b);
+// }else if(b == c){
+//     console.log(a);
+// }else{
+//     console.log(0);
+// }
+// Sonlar o'qida a,b sonlari berilgan. Ular orasidagi masofani toping.
+// let a = -2,  b = -6  
+// if(a <  0 && b < 0){
+//     console.log((a * (-1)) + (b * (-1)));
+// }
+// else if(a - b  < 0){
+//     console.log(b-a);
+// }else if (b - a < 0){
+//     console.log(a-b);
+// }
+// Sonlar o'qida a nuqta berilgan.
+// Shu nuqtadan 0 gacha bo'lgan masofani toping.
+// let a = -15 
+// if(a > 0){
+//     console.log(a);
+// }else if(a < 0){
+//     console.log(a * (-1));
+// }else{
+//     console.log(0);
+// }
+// a soni berilgan. 1 - 999 sonlar orasida.
+// Agar a soni 1 honali son bo'lsa 1 ni return qiling.
+// Agat a soni 2 honali son bo'lsa 2 ni return qiling.
+// Agar a soni 3 honali bo'lsa 3 ni return qiling.
+// let a = 988
+// console.log(a.toString().length);
+// a, b, c, d sonlar berilgan.
+// Agar ularning qiymati barchasi musbat   bo'lsa true konsolga chiqaring bo'lmasa false ni konsolga chiqaring
+// let  a = 5, b=6, c=4, d=-7
+// if(a > 0 && b > 0 && c > 0 && d > 0){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+// a, b, c sonlar berilgan (0 emas).
+// Agar  3 ta son ham toq bo'lsa 1 ni konsolga chiqaring. 
+// Agar 3 ta son ham juft bo'lsa 2 ni konsolga chiqaring. 
+// Agar xohlagan bittasi toq bo'lsa 3 ni konsolga chiqaring.
+// Agar shartlarni qanoatlantirmasa  0 ni konsolga chiqaring.
+// let a = 18, b=7, c=16
+// if(a % 2 !== 0 && b % 2 !== 0 && c % 2 !== 0){
+//     console.log(1);
+// }else if(a % 2 == 0 && b % 2 == 0 && c % 2 == 0){
+//     console.log(2);
+// }else if(a % 2 !== 0 || b % 2 !== 0 || c % 2 !== 0){
+//     console.log(3);
+// }else {
+//     console.log(0);
+// }
+// a, b, c sonlar berilgan (0 emas).
+// Agar xohlagan 2 tasi juft bo'lsa 1 ni konsolga chiqaring.
+// Agar xohlagan 2 tasi toq bo'lsa 2 ni konsolga chiqaring
+// bo'lmasa 0 ni konsolga chiqaring.
+// let  a = 16, b=21, c=17
+// if(a % 2 == 0 && b % 2 == 0 || a % 2 == 0 && c % 2 == 0 || c % 2 == 0 && b % 2 == 0){
+//     console.log(1);
+// }else if(a % 2 !== 0 && b % 2 !== 0 || a % 2 !== 0 && c % 2 !== 0 || c % 2 !== 0 && b % 2 !== 0){
+//     console.log(2);
+// }else {
+//     console.log(0);
+// }
+// a, b, c sonlari berilgan.
+// Shu sonlardan uch xonali son yasang. Agar xohlagan son 0 ga teng yoki  kichik bo'lsa 0 ni konsolga chiqaring.
+let a = 8, b=0, c=3;
+if(a == 0 || b == 0 || c == 0){
+    console.log(0);
+}else {
+    console.log( a * 100 + b * 10 + c );
+}
